@@ -15,11 +15,11 @@ Each folder includes documented exercises and project write-ups that reflect pra
 
 ## Projects Included
 
-- [Python algorithm for file updates](./Python/file-update-algorithm.md)
-- Incident handler’s journal
-- Vulnerability assessment report
-- SQL query filtering lab
-- Linux file permissions lab
-- Incident report analysis
+* [Python algorithm for file updates](./Python/file-update-algorithm.md)
+* Incident handler’s journal
+* Vulnerability assessment report
+* SQL query filtering lab
+* Linux file permissions lab
+* Incident report analysis
 
 This portfolio represents my ongoing development in cybersecurity and technical problem-solving.
