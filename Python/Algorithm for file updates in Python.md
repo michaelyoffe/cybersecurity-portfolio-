@@ -1,6 +1,5 @@
 ﻿Algorithm for file updates in Python
  
-Project description
 In this project, I developed a python-based algorithm to automate updating an IP address allow list used to control access to restricted content at my organization. The “allow_list.txt” identifies IP addresses permitted to access sensitive systems, while a separate “remove_list.txt” identifies IP addresses that should no longer have access. The algorithm reads the “allow_list.txt” file, checks it against the “remove_list.txt”, and removes any matching IP addresses to ensure access permissions remain up to date. This automated approach helps reduce manual errors, improves security, and supports access control requirements in an environment that handles sensitive patient data. 
 Open the file that contains the allow list
 To open the file that contains the allow list, I first assigned the file name “allow_list.txt” to a variable called import_file. Storing the file name in a variable makes it easier to reuse. 
@@ -64,7 +63,8 @@ The join() method is used to convert the ip_addresses list back into a single st
 
 
 Next, a with statement is used with the open() function in write mode (“w”) to overwrite the original file with the revised list of IP addresses. The write() method updates the file contents, and the with statement ensures the file is properly closed after writing is complete. 
-Summary
+
 In this algorithm, I wrote a Python program that updates an allow list by removing specific IP addresses. The file is opened and read as a string, then split into a list using the split() method so each IP address can be checked individually. The program compares this list against a separate removal list and uses the remove() method when a matching IP address is found. Once the updates are complete, the list is converted back into a string with the join() method. The revised content is then written back to the original file to reflect the changes.
+
 
 
