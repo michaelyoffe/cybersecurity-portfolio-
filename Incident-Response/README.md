@@ -1,4 +1,4 @@
-#Incident Response Projects 
+Incident Response Projects 
 
 This section contains documented security incident investigations and analysis exercises.
 
