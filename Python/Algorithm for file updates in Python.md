@@ -64,7 +64,9 @@ The join() method is used to convert the ip_addresses list back into a single st
 
 Next, a with statement is used with the open() function in write mode (“w”) to overwrite the original file with the revised list of IP addresses. The write() method updates the file contents, and the with statement ensures the file is properly closed after writing is complete. 
 
+
 In this algorithm, I wrote a Python program that updates an allow list by removing specific IP addresses. The file is opened and read as a string, then split into a list using the split() method so each IP address can be checked individually. The program compares this list against a separate removal list and uses the remove() method when a matching IP address is found. Once the updates are complete, the list is converted back into a string with the join() method. The revised content is then written back to the original file to reflect the changes.
+
 
 
 
