@@ -17,7 +17,7 @@ Each folder includes documented exercises and project write-ups that reflect pra
 
 * [Algorithm for file updates in python](./Python/file-update-algorithm.md)
 * [Incident handler's journal](incident-handler-journal.md)
-* Vulnerability assessment report
+* [Vulnerability assessment report](vulnerability-assessment.md)
 * SQL query filtering lab
 * Linux file permissions lab
 * [Incident report analysis](incident-report-analysis.md)
