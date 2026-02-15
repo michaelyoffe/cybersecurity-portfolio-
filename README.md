@@ -20,6 +20,6 @@ Each folder includes documented exercises and project write-ups that reflect pra
 * Vulnerability assessment report
 * SQL query filtering lab
 * Linux file permissions lab
-* Incident report analysis
+* [Incident report analysis](incident-report-analysis.md)
 
 This portfolio represents my ongoing development in cybersecurity and technical problem-solving.
