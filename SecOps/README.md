@@ -1,6 +1,6 @@
-# Incident Response Projects 
+# Secuirity Operations Projects 
 
-This section contains documented security incident investigations and analysis exercises.
+This section contains documented SecOps investigations and analysis exercises.
 
 ## Projects
 
