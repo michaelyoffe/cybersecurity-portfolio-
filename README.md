@@ -36,7 +36,7 @@ Aspiring Cybersecurity Analyst with a focus on Network Security and Data Integri
 ---
 
 ## Connect with Me
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/michael-joffe-011433339)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michael-joffe-011433339)
 
-* **LinkedIn:** [Michael Joffe](www.linkedin.com/in/michael-joffe-011433339)
+* **LinkedIn:** [Michael Joffe](https://www.linkedin.com/in/michael-joffe-011433339)
 * **Email:** theonemichaeljoffe@gmail.com
