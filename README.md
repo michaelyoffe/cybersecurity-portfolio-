@@ -29,7 +29,7 @@ Aspiring Cybersecurity Analyst with a focus on Network Security and Data Integri
 | [Linux File Permissions Lab](./Technical-Labs/linux-lab.md) | Linux, IAM | Hardened system security by managing user access and file-level permissions via the CLI. |
 | [Algorithm for File Updates](./Python/file-update-algorithm.md) | Python, Automation | Developed a Python script to automate security updates for system files, ensuring consistency across the environment. |
 | [Cybersecurity Incident Report](./SecOps/IR-002-syn-flood-analysis.md) | Incident Response, TCP/IP | Analyzed a SYN Flood attack to identify root causes and documented remediation steps for network recovery. |
-| [Vulnerability Assessment Report](https://github.com/michaelyoffe/cybersecurity-portfolio-/blob/main/vulnerability-assessment.md) | NIST Framework, SecOps | Conducted a system audit to identify security gaps and provided a structured risk assessment report. |
+| [Vulnerability Assessment Report](./SecOps/vulnerability-assessment.md) | NIST Framework, SecOps | Conducted a system audit to identify security gaps and provided a structured risk assessment report. |
 | [Incident Handler's Journal](./SecOps/incident-handler-journal.md) | Documentation, SecOps | A chronological log of security incidents and lessons learned, demonstrating consistent monitoring and response. |
 | [Incident Report Analysis](./SecOps/incident-report-analysis.md) | Analytical Thinking | Evaluated historical security incidents to identify patterns and suggest long-term preventative measures. |
 
