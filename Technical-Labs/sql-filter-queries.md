@@ -11,7 +11,7 @@ There was a potential security incident that occurred after business hours, so i
 The query begins by selecting all records from the log_in_attempts table. A WHERE clause is then used with an AND operator to filter the results. The first condition, login_time > '18:00', limits the output to login attempts that occurred after 18:00. The second condition, success = FALSE, filters the results to include only failed login attempts. Together, these filters return only after-hours login attempts that were unsuccessful and may require further investigation.
 
 ### SQL Query & Results:
-![After hours login attempts screenshot placeholder](INSERT_IMAGE_LINK_HERE)
+![After hours login attempts](screenshots/after_hours_login.png)
 
 ---
 
@@ -21,7 +21,7 @@ A suspicious event occurred on 2022-05-09, so it was necessary to review login a
 The query selects all records from the log_in_attempts table and uses a WHERE clause with an OR operator to filter the results by date. The condition login_date = '2022-05-09' retrieves login attempts from the day the incident occurred, while login_date = '2022-05-08' retrieves login attempts from the previous day. Using the OR operator ensures that login attempts from either date are included in the output.
 
 ### SQL Query & Results:
-![Specific dates screenshot placeholder](INSERT_IMAGE_LINK_HERE)
+![Specific dates](screenshots/specific_dates.png)
 
 ---
 
@@ -31,7 +31,7 @@ There has been suspicious login activity, and it was determined that the activit
 The query selects all records from the log_in_attempts table and uses a WHERE clause to exclude login attempts originating from Mexico. The condition WHERE NOT country LIKE 'MEX%' filters out any records where the country value begins with MEX, which accounts for both MEX and MEXICO. This ensures that only login attempts from countries other than Mexico are included in the results.
 
 ### SQL Query & Results:
-![International login attempts screenshot placeholder](INSERT_IMAGE_LINK_HERE)
+![International login attempts](screenshots/outside_mexico.png)
 
 ---
 
@@ -41,7 +41,7 @@ To perform security updates on specific employee machines, it was necessary to i
 The query selects all records from the employees table and applies a WHERE clause with an AND operator to narrow the results. The condition department = 'Marketing' filters for employees who work in the Marketing department. The condition office LIKE 'East%' filters for offices located in the East building by matching office values that begin with East. Together, these filters return only employees in Marketing who are assigned to offices in the East building.
 
 ### SQL Query & Results:
-![Marketing employees screenshot placeholder](INSERT_IMAGE_LINK_HERE)
+![Marketing employees](screenshots/marketing_east.png)
 
 ---
 
@@ -51,7 +51,7 @@ To perform a different security update, it was necessary to identify employees w
 The query selects all records from the employees table and uses a WHERE clause with an OR operator to filter the results. The condition department = 'Sales' retrieves employees in the Sales department, while department = 'Finance' retrieves employees in the Finance department. Using the OR operator ensures that employees from either department are included in the output.
 
 ### SQL Query & Results:
-![Finance/Sales employees screenshot placeholder](INSERT_IMAGE_LINK_HERE)
+![Finance/Sales employees](screenshots/finance_sales.png)
 
 ---
 
@@ -61,7 +61,6 @@ To complete the final security update, it was necessary to identify employees wh
 The query selects all records from the employees table and uses a WHERE clause to exclude employees in the Information Technology department. The condition NOT department = 'Information Technology' is used to remove IT employees from the results, ensuring that only employees from all other departments are included and identified for the update.
 
 ### SQL Query & Results:
-![Non-IT employees screenshot placeholder](INSERT_IMAGE_LINK_HERE)
 
 ---
 
