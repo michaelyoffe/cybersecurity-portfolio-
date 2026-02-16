@@ -34,3 +34,9 @@ Aspiring Cybersecurity Analyst with a focus on Network Security and Data Integri
 | [Incident Report Analysis](./SecOps/incident-report-analysis.md) | Analytical Thinking | Evaluated historical security incidents to identify patterns and suggest long-term preventative measures. |
 
 ---
+
+## Connect with Me
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/michael-joffe-011433339)
+
+* **LinkedIn:** [Michael Joffe](www.linkedin.com/in/michael-joffe-011433339)
+* **Email:** theonemichaeljoffe@gmail.com
