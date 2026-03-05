@@ -47,26 +47,28 @@ Configured a domain controller, DNS, and a domain-joined client workstation to p
 ## Screenshots
 ![ad users](screenshots/ad-users-ou.png)
 
-
+This view shows the organizational structure of the corp.local domain, specifically highlighting the creation of the helpdesk-users Organizational Unit and a test user account.
 
 ![user disabled](screenshots/user-disabled.png)
 
-
+confirmation dialog box indicates that the "Test User" account was successfully disabled, simulating a common administrative security action.
 
 ![disabled login](screenshots/disabled-login-failure.png)
 
-
+The Windows login screen displays an error message explaining that the account has been disabled, preventing the user from signing into the workstation.
 
 ![domain login](screenshots/domain-login-success.png)
 
-
+This screenshot captures the successful authentication of a domain user on the client machine, verifying that the workstation is communicating correctly with the Domain Controller.
 
 ![client domain](screenshots/client-domain-joined.png)
 
-
+The system settings menu confirms that CLIENT01 has been successfully joined to the corp.local domain.
 
 ![DC01 static](screenshots/dc01-static-ip.png)
 
-
+This image shows the network adapter settings for the Domain Controller, where a static IP address and preferred DNS were manually assigned to ensure network stability.
 
 ![ping DC01](screenshots/ping-dc01.png)
+
+A successful command-line ping from the client to the Domain Controller demonstrates active network connectivity and proper DNS resolution between the two virtual machines.
