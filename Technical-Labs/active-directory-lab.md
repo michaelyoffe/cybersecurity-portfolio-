@@ -44,31 +44,32 @@ Configured a domain controller, DNS, and a domain-joined client workstation to p
 * Windows Server administration
 * Tier 1 help desk workflows
 
-## Screenshots
-![ad users](screenshots/ad-users-ou.png)
+## Screenshots & Evidence
 
-This view shows the organizational structure of the corp.local domain, specifically highlighting the creation of the helpdesk-users Organizational Unit and a test user account.
+### 1. User & OU Management
+*Demonstrating the creation of organizational structures and account security workflows.*
 
-![user disabled](screenshots/user-disabled.png)
+| Action: Create OU & User | Action: Disable Account | Verification: Login Denied |
+| :--- | :--- | :--- |
+| ![ad users](./screenshots/ad-users-ou.png) | ![user disabled](./screenshots/user-disabled.png) | ![disabled login](./screenshots/disabled-login-failure.png) |
+| **Setup:** Created `helpdesk-users` OU and a test account in ADUC. | **Security:** Simulating an administrative lock on a user account. | **Result:** Client-side confirmation that the disabled account cannot authenticate. |
 
-confirmation dialog box indicates that the "Test User" account was successfully disabled, simulating a common administrative security action.
+---
 
-![disabled login](screenshots/disabled-login-failure.png)
+### 2. Domain Connectivity
+*Confirming successful integration between the Windows 11 Client and the Server 2022 Domain Controller.*
 
-The Windows login screen displays an error message explaining that the account has been disabled, preventing the user from signing into the workstation.
+| Successful Domain Login | System Verification |
+| :--- | :--- |
+| ![domain login](./screenshots/domain-login-success.png) | ![client domain](./screenshots/client-domain-joined.png) |
+| **Authentication:** Logging into the workstation using domain credentials. | **Identity:** System properties confirming `CLIENT01` is a member of `corp.local`. |
 
-![domain login](screenshots/domain-login-success.png)
+---
 
-This screenshot captures the successful authentication of a domain user on the client machine, verifying that the workstation is communicating correctly with the Domain Controller.
+### 3. Network Configuration & Troubleshooting
+*Ensuring the foundational networking (Static IP and DNS) is correctly configured for AD stability.*
 
-![client domain](screenshots/client-domain-joined.png)
-
-The system settings menu confirms that CLIENT01 has been successfully joined to the corp.local domain.
-
-![DC01 static](screenshots/dc01-static-ip.png)
-
-This image shows the network adapter settings for the Domain Controller, where a static IP address and preferred DNS were manually assigned to ensure network stability.
-
-![ping DC01](screenshots/ping-dc01.png)
-
-A successful command-line ping from the client to the Domain Controller demonstrates active network connectivity and proper DNS resolution between the two virtual machines.
+| Static IP Configuration (DC) | Connectivity Test (ICMP) |
+| :--- | :--- |
+| ![DC01 static](./screenshots/dc01-static-ip.png) | ![ping DC01](./screenshots/ping-dc01.png) |
+| **Configuration:** DC01 assigned a static IP and DNS to prevent domain drops. | **Testing:** Successful ping from Client to DC verifying DNS resolution. |
