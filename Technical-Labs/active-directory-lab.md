@@ -45,11 +45,28 @@ Configured a domain controller, DNS, and a domain-joined client workstation to p
 * Tier 1 help desk workflows
 
 ## Screenshots
-/screenshots
-  ad-users-ou.png
-  user-disabled.png
-  disabled-login-failure.png
-  domain-login-success.png
-  client-domain-joined.png
-  dc01-static-ip.png
-  ping-dc01.png
+![ad users](screenshots/ad-users-ou.png)
+
+
+
+![user disabled](screenshots/user-disabled.png)
+
+
+
+![disabled login](screenshots/disabled-login-failure.png)
+
+
+
+![domain login](screenshots/domain-login-success.png)
+
+
+
+![client domain](screenshots/client-domain-joined.png)
+
+
+
+![DC01 static](screenshots/dc01-static-ip.png)
+
+
+
+![ping DC01](screenshots/ping-dc01.png)
