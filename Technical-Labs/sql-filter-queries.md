@@ -61,7 +61,7 @@ To complete the final security update, it was necessary to identify employees wh
 The query selects all records from the employees table and uses a WHERE clause to exclude employees in the Information Technology department. The condition NOT department = 'Information Technology' is used to remove IT employees from the results, ensuring that only employees from all other departments are included and identified for the update.
 
 ### SQL Query & Results:
-
+![employees not in IT](screenshots/screenshot_IT.png)
 ---
 
 ## Summary
