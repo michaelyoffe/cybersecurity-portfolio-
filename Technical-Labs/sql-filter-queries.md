@@ -11,7 +11,7 @@ There was a potential security incident that occurred after business hours, so i
 The query begins by selecting all records from the log_in_attempts table. A WHERE clause is then used with an AND operator to filter the results. The first condition, login_time > '18:00', limits the output to login attempts that occurred after 18:00. The second condition, success = FALSE, filters the results to include only failed login attempts. Together, these filters return only after-hours login attempts that were unsuccessful and may require further investigation.
 
 ### SQL Query & Results:
-![After hours login attempts](screenshots/after_hours_login.png)
+![After hours login attempts](screenshotsafter_hours_login.png)
 
 ---
 
