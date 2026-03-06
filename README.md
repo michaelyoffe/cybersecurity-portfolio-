@@ -1,7 +1,14 @@
-# IT Support & security Portfolio
+# IT Support & Security Portfolio
 
 ## Professional Statement
 Dedicated IT professional with a strong foundation in **Systems Administration** and **Technical Support**. I specialize in deploying and managing Windows/Linux environments, securing network identities through Active Directory, and resolving complex technical issues through data-driven analysis. My goal is to leverage my troubleshooting skills to provide high-quality user support and maintain secure, efficient infrastructure.
+
+## ⌨️ Core Support Competencies
+* **Account Management:** Password resets, account lockouts, and group policy (GPO) troubleshooting in Active Directory.
+* **Technical Troubleshooting:** Diagnosing Hardware/Software issues using the OSI model (Layers 1-3).
+* **Documentation:** Creating clear, concise "Knowledge Base" articles for end-users and Tier 2 escalations.
+
+---
 
 ## 🛠️ Languages and Tools:
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
