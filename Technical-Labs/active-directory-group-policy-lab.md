@@ -1,4 +1,4 @@
-(./screenshots/group_policy_console.png)
+![group_policy_console.png]
 Group Policy Management Console was opened to manage policies for the corp.local domain.
 (./screenshots/HelpDesk-ControlPanel-Restriction.png)
 A new Group Policy Object was created to manage user restrictions within the domain.
