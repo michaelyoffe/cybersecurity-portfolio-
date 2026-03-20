@@ -5,7 +5,7 @@ This lab demonstrates the implementation of Group Policy Objects (GPOs) within a
 
 ### Tools Used
 * **Windows Server 2022** (Domain Controller)
-* **Windows 11
+* **Windows 11**
 * **Active Directory Domain Services (AD DS)**
 * **Group Policy Management Console (GPMC)**
 
