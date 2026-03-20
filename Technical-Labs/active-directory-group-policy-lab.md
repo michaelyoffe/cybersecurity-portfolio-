@@ -1,6 +1,6 @@
 # Active Directory: Implementing Group Policy Objects (GPO)
 
-## Project Overview
+## Overview
 This lab demonstrates the implementation of Group Policy Objects (GPOs) within a Windows Server 2022 environment. The goal was to enforce security compliance by restricting access to sensitive system settings (Control Panel) for standard domain users.
 
 ### Tools Used
