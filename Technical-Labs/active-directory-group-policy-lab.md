@@ -4,7 +4,7 @@
 This lab demonstrates the implementation of Group Policy Objects (GPOs) within a Windows Server 2022 environment. The goal was to enforce security compliance by restricting access to sensitive system settings (Control Panel) for standard domain users.
 
 ### Tools Used
-* **Windows Server 2022** (Domain Controller)
+* **Windows Server 2022 (Domain Controller)**
 * **Windows 11**
 * **Active Directory Domain Services (AD DS)**
 * **Group Policy Management Console (GPMC)**
