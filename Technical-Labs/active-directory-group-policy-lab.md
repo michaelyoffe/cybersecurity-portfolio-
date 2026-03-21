@@ -19,29 +19,23 @@ In an enterprise environment, allowing standard users access to system configura
 
 ![group policy console opened](./screenshots/group_policy_console.png)
 
-Group Policy Management Console was opened to manage policies for the corp.local domain.
+Opening the Group Policy Management Console (GPMC) to manage security rules for the corp.local domain.
 
 ![GPO created](./screenshots/HelpDesk-ControlPanel-Restriction.png)
 
-A new Group Policy Object was created to manage user restrictions within the domain.
+Creating a new Group Policy Object (GPO) named HelpDesk-ControlPanel-Restriction to house the new security settings.
 
 ![conrol policy enabled](./screenshots/control_panel_policy_enabled.png)
 
-A Group Policy setting was configured to prohibit access to the Control Panel for domain users.
+Enabling the specific setting that blocks access to the Control Panel and PC Settings for all users in the target group.
 
 ![gpu update](./screenshots/gpupdate_client.png)
 
-The gpupdate command was used to apply the new Group Policy settings to the client machine.
-
-### Verification
-To ensure the policy was applied correctly, I performed the following steps on the **Windows 11 Client**:
-1.  **Command Line:** Ran `gpresult /r` to confirm the "Restrict Control Panel" GPO was listed under *Applied Group Policy Objects*.
-2.  **Manual Test:** Attempted to open the Control Panel from the Start Menu.
-3.  **Result:** The system triggered a restriction alert: *"This operation has been cancelled due to restrictions in effect on this computer."*
+Running the gpupdate /force command on the Windows 11 client to instantly apply the new security changes without a restart.
 
 ![policy block test](./screenshots/policy_block_test.png)
 
-The Control Panel restriction was successfully applied to the client machine through Group Policy.
+Testing the restriction as a standard user. The system successfully blocked access with a message stating the operation was cancelled due to restrictions.
 
 ## Future Security Hardening
 While restricting the Control Panel is a vital first step, a fully hardened Active Directory environment should also include:
