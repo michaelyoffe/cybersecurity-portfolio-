@@ -1,6 +1,6 @@
 # Active Directory: Implementing Group Policy Objects (GPO)
 
-## Scenario
+## Overview 
 In an enterprise environment, allowing standard users access to system configuration tools like the **Control Panel** or **Command Prompt** poses a significant security risk. Unauthorized changes can lead to system instability, disabled security software, or the introduction of shadow IT. 
 
 **Objective:** Implement the **Principle of Least Privilege (PoLP)** by creating and enforcing a Group Policy Object (GPO) that restricts Control Panel access for all non-administrative users in the `corp.local` domain.
@@ -17,32 +17,42 @@ In an enterprise environment, allowing standard users access to system configura
 | **Prohibit access to Control Panel** | User Configuration > Administrative Templates > Control Panel | **Enabled** | Users / Helpdesk |
 | **Enforcement Method** | Group Policy Management Console (GPMC) | **GPO Link** | corp.local |
 
+---
+
+### Step 1: group policy console opened 
 ![group policy console opened](./screenshots/group_policy_console.png)
 
-Opening the Group Policy Management Console (GPMC) to manage security rules for the corp.local domain.
+Initializing the Group Policy Management Console (GPMC) on the Domain Controller to audit and manage the hierarchical policy structure for the corp.local infrastructure.
 
+---
+
+### Step 2: new group policy object created 
 ![GPO created](./screenshots/HelpDesk-ControlPanel-Restriction.png)
 
-Creating a new Group Policy Object (GPO) named HelpDesk-ControlPanel-Restriction to house the new security settings.
+Generating a targeted Group Policy Object (GPO) specifically for workstation restrictions, ensuring modularity so the policy can be linked or unlinked without affecting other domain settings.
 
+---
+
+### Step 3: Control policy enabled 
 ![conrol policy enabled](./screenshots/control_panel_policy_enabled.png)
 
-Enabling the specific setting that blocks access to the Control Panel and PC Settings for all users in the target group.
+Navigating to User Configuration > Administrative Templates to enforce the 'Prohibit access to Control Panel' setting, effectively disabling control.exe and system settings access for non-admin users.
 
+---
+
+### Step 4: Ran gpu update command 
 ![gpu update](./screenshots/gpupdate_client.png)
 
-Running the gpupdate /force command on the Windows 11 client to instantly apply the new security changes without a restart.
+Executing gpupdate /force on the endpoint to trigger an immediate policy refresh, bypassing the default 90-minute background interval to ensure the security control is active instantly.
 
+---
+
+### Step 5: Policy block tested 
 ![policy block test](./screenshots/policy_block_test.png)
 
-Testing the restriction as a standard user. The system successfully blocked access with a message stating the operation was cancelled due to restrictions.
+Verifying the Principle of Least Privilege from a standard user session. The system successfully intercepts the request, confirming that the GPO is correctly filtered and enforced.
 
-## Future Security Hardening
-While restricting the Control Panel is a vital first step, a fully hardened Active Directory environment should also include:
-- [ ] **Account Lockout Policy:** Prevent brute-force attacks by locking accounts after 5 failed attempts.
-- [ ] **Disable CMD/PowerShell:** Restrict access for standard users to prevent script-based attacks.
-- [ ] **Interactive Logon Banner:** Display a legal warning at the sign-in screen to deter unauthorized access.
-- [ ] **AppLocker:** Implement application whitelisting to prevent unapproved software from running.
+---
 
 ## Conclusion
-The lab successfully demonstrated the "Least Privilege" principle. By utilizing `gpupdate /force`, the policy was applied instantly, confirming that centralized administration through AD is an efficient way to manage enterprise-wide security posture.
+The lab successfully demonstrated the "Least Privilege" principle. By utilizing gpupdate /force, the policy was applied instantly, confirming that centralized administration through AD is an efficient way to manage enterprise-wide security posture.
