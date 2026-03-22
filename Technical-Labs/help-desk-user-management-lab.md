@@ -6,15 +6,20 @@ This lab simulates a real help desk environment within a Windows Server domain. 
 * **Windows 11**
 * **Active Directory Domain Services (AD DS)**
 * **Security Groups (RBAC Framework)**
-  
+
+  ---
 
 ![AD on](./screenshots/_AD_users_console.png)
 
 This shows the Active Directory Users and Computers console, where I managed domain user accounts, reviewed properties, and performed administrative tasks such as password resets, group assignments, and account status changes.
 
+---
+
 ![password reset](./screenshots/_reset_password.png)
 
 The user password was reset and configured to require a password change at the next login. This demonstrates secure account recovery practices and ensures compliance with organizational password policies.
+
+---
 
 ![add security group](./screenshots/_add_security_group.png)
 
