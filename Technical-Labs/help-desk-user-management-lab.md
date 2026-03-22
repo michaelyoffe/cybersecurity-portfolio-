@@ -1,5 +1,5 @@
-AD_users_console.png
+(./screenshots/AD_users_console.png)
 
-reset_password.png
+(./screenshots/reset_password.png)
 
-add_security_group.png
+(./screenshots/add_security_group.png)
