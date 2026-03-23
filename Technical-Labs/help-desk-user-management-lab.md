@@ -1,4 +1,4 @@
-# Help Desk User Management 
+# Active Directory: Help Desk User Management 
 
 ## Overview
 This lab simulates a real help desk environment within a Windows Server domain. Using Active Directory, I performed common user‑management tasks that IT support teams handle daily. The goal of this project was to demonstrate my ability to manage accounts, apply security controls, and troubleshoot access issues in an enterprise domain environment.
