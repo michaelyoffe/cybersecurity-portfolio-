@@ -31,3 +31,8 @@ The user password was reset and configured to require a password change at the n
 ![add security group](./screenshots/_add_security_group.png)
 
 The user was added to a security group to demonstrate role-based access management. Group membership determines what resources the user can access, ensuring permissions are assigned consistently and securely.
+
+---
+
+### Conclusion
+This lab successfully demonstrated the critical lifecycle of user management within an Active Directory environment. By practicing standardized account creation, secure password recovery protocols, and role-based access control via Security Groups, I have gained a practical understanding of how IT departments maintain both security and operational efficiency. These foundational skills are essential for enforcing organizational policies and ensuring the Principle of Least Privilege across an enterprise network.
