@@ -35,12 +35,12 @@ Dedicated IT professional with a strong foundation in **Systems Administration**
 * **Help Desk Focus:** Created OUs, managed user account lifecycles (creation/disabling), and resolved domain-join connectivity issues.
 * **Outcome:** Gained hands-on experience in centralized administration
 
-[Active Directory User Management Lab](https://github.com/michaelyoffe/cybersecurity-portfolio-/blob/main/Technical-Labs/active-directory-user-management-lab.md)
+### [Active Directory User Management Lab](https://github.com/michaelyoffe/cybersecurity-portfolio-/blob/main/Technical-Labs/active-directory-user-management-lab.md)
 - *The Project:* Simulated a standard IT support ticket workflow by managing the user lifecycle within Active Directory.
 - *Help Desk Focus:* Performed secure password resets, resolved account lockouts, and managed departmental access via Security Groups.
 - *Outcome:* Demonstrated the ability to handle high-volume Tier 1 support requests while maintaining security best practices.
 
-[Active Directory Group Policy Lab](https://github.com/michaelyoffe/cybersecurity-portfolio-/blob/main/Technical-Labs/active-directory-group-policy-lab.md)
+### [Active Directory Group Policy Lab](https://github.com/michaelyoffe/cybersecurity-portfolio-/blob/main/Technical-Labs/active-directory-group-policy-lab.md)
 - *The Project:* Implemented enterprise-level system restrictions and security configurations using Group Policy Objects (GPOs).
 - *Help Desk Focus:* Applied "Security Banners," disabled high-risk tools (CMD/Control Panel) for standard users, and mapped network drives.
 - *Outcome:* Gained experience in centralized endpoint management and hardening workstation security across a domain.
