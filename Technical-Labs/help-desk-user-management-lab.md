@@ -3,11 +3,16 @@
 ## Overview
 This lab simulates a real help desk environment within a Windows Server domain. Using Active Directory, I performed common user‑management tasks that IT support teams handle daily. The goal of this project was to demonstrate my ability to manage accounts, apply security controls, and troubleshoot access issues in an enterprise domain environment.
 
+### Objective 
+To demonstrate proficiency in Windows Server 2022 administration by automating user lifecycle management, enforcing Least Privilege through security group assignments, and maintaining domain integrity via Active Directory Domain Services (AD DS).
+
 ### Tools Used
 * **Windows Server 2022 (Domain Controller)**
 * **Windows 11**
 * **Active Directory Domain Services (AD DS)**
 * **Security Groups (RBAC Framework)**
+
+To demonstrate proficiency in Windows Server 2022 administration by automating user lifecycle management, enforcing Least Privilege through security group assignments, and maintaining domain integrity via Active Directory Domain Services (AD DS).
 
   ---
 
